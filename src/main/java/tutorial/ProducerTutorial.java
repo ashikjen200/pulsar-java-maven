@@ -29,7 +29,7 @@ import org.slf4j.LoggerFactory;
 
 public class ProducerTutorial {
 
-    private static final String SERVICE_URL = "pulsar://localhost:6650";
+    private static final String SERVICE_URL = "pulsar://172.31.25.217:6650";
 
     private static final String TOPIC_NAME = "persistent://sample/standalone/ns1/tutorial-topic";
 
